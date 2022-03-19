@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14033" started-at="2022-03-17T13:59:36 IST" finished-at="2022-03-17T13:59:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14033" started-at="2022-03-17T13:59:36 IST" finished-at="2022-03-17T13:59:50 IST">
+      <class name="ddt.TestPosition">
+        <test-method status="PASS" signature="startuo()[pri:0, instance:ddt.TestPosition@6b9651f3]" name="startuo" is-config="true" duration-ms="13922" started-at="2022-03-17T13:59:36 IST" finished-at="2022-03-17T13:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startuo -->
+        <test-method status="PASS" signature="testPositionOfActitime()[pri:0, instance:ddt.TestPosition@6b9651f3]" name="testPositionOfActitime" duration-ms="74" started-at="2022-03-17T13:59:50 IST" finished-at="2022-03-17T13:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositionOfActitime -->
+      </class> <!-- ddt.TestPosition -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

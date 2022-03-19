@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNgProgram.ActitimeLogin">
+        <methods>
+          <include name="logoutApp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNgProgram.ActitimeLogin -->
+      <class name="testNgProgram.ActitimeLoginWithAssertCOndition">
+        <methods>
+          <include name="loginwithAssert"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testNgProgram.ActitimeLoginWithAssertCOndition -->
+      <class name="testNgProgram.ActiTimeTask">
+        <methods>
+          <include name="createAndVerifyTask"/>
+          <include name="logoutAndClose"/>
+          <include name="deleteAndVerifyTask"/>
+          <include name="modifyAndVerifyTask"/>
+          <include name="openBroserAndLogin"/>
+        </methods>
+      </class> <!-- testNgProgram.ActiTimeTask -->
+      <class name="testNgProgram.BeforeApplicationWithBeforeAfterMethod">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="testSearch"/>
+          <include name="startUp"/>
+          <include name="googlePageLanding"/>
+        </methods>
+      </class> <!-- testNgProgram.BeforeApplicationWithBeforeAfterMethod -->
+      <class name="testNgProgram.GroupExample">
+        <methods>
+          <include name="testCase2"/>
+          <include name="testCase1"/>
+          <include name="testCase4"/>
+          <include name="testCase3"/>
+        </methods>
+      </class> <!-- testNgProgram.GroupExample -->
+      <class name="testNgProgram.GoogleApplicationBeforeAfterTest">
+        <methods>
+          <include name="cleanup"/>
+          <include name="googlePageLanding"/>
+          <include name="searchText"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testNgProgram.GoogleApplicationBeforeAfterTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

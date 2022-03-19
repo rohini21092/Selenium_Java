@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [parallel Test run]" parallel="methods">
+  <test thread-count="2" name="regression(failed)" parallel="methods">
+    <classes>
+      <class name="testNgProgram.ParallelExecutionOfMethod">
+        <methods>
+          <include name="loginForActitime"/>
+        </methods>
+      </class> <!-- testNgProgram.ParallelExecutionOfMethod -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [parallel Test run] -->

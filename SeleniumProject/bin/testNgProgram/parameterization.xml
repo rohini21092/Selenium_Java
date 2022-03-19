@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parametrization">
+	<test name="testing parameterization">
+		<parameter name="browser" value="chrome" />
+		<parameter name="user" value="admin" />
+		<parameter name="pass" value="manager" />
+		<classes>
+			<class name="testNgProgram.Parameterization" >
+			<methods>
+				<include name="loginForActitime" />
+				<exclude name="testCaseOne" />
+				<exclude name="testCaseTwo" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [parametrization]">
+  <test thread-count="5" name="testing parameterization(failed)">
+    <parameter name="pass" value="manager"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="user" value="admin"/>
+    <classes>
+      <class name="testNgProgram.Parameterization">
+        <methods>
+          <include name="loginForActitime" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNgProgram.Parameterization -->
+    </classes>
+  </test> <!-- testing parameterization(failed) -->
+</suite> <!-- Failed suite [parametrization] -->
